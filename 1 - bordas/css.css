@@ -1,0 +1,38 @@
+h1 { 
+    color: blue; 
+    font-size: 50px;
+}
+a {
+    color: green;
+}
+li {
+    color: blueviolet;
+}
+
+.solida {
+    border: 5px solid #0000ff;
+}
+
+.pontilhada {
+    border: 5px dotted #0000ff;
+}
+.tracejada {
+    border: 5px dashed #0000ff;
+}
+
+.ladoEsquerdo {
+    border-left: 5px solid #0000ff ;
+}
+.ladoDireito {
+    border-right: 5px solid #0000ff ;
+}
+.cima {
+    border-top: 5px solid #0000ff ;
+}
+.baixo {
+    border-bottom: 5px solid #0000ff ;
+}
+.arredondada {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
