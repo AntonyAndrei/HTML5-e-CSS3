@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    background-color: gray;
+}
+
+.login {
+    border: 3px solid #000;
+    border-radius: 5%;
+    width: 180px;
+    margin-top: 5%;
+    margin-right: 55%;
+    margin-left: 45%;
+    background-color: gainsboro;
+    box-shadow: 15px 15px 25px black;
+    transition: all 1s linear;
+}
+
+.login:hover {
+    background-color: white;
+}
+
+.senha {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.usuario {
+    margin-top: 20px;
+    margin-left: 10px;
+}
