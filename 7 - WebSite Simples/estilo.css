@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	height: 50px;
+	background-color: #353535;
+}
+
+.topointerior {
+	width: 1000;
+	margin: auto;
+}
+
+.logomarca {
+	float: left;
+}
+
+.menu {
+	float: right;
+}
+
+.menu ul,
+.menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+.menu li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.menu li:hover {
+	background-color: #ffc000;
+	cursor: pointer;
+}
+
+.banner {
+	height: 300px;
+	background-color: #fcff00
+}
+
+.bannerinterior {
+	width: 1000px;
+	margin: auto;
+}
+
+.banneresquerda {
+	float: left;
+}
+
+.bannerdireita {
+	float: right;
+}
+
+.frase1 {
+	font-family: forte;
+	font-size: 50px;
+	font-weight: bold;
+	color: #353535;
+	margin-top: 20px;
+	padding: 0;
+	line-height: 42px;
+
+}
+
+.frase2 {
+	font-family: Berlin Sans FB;
+	font-size: 28px;
+	margin-top: 10px
+
+}
+
+.frase3 {
+	font-family: Berlin Sans FB;
+	font-size: 32px;
+
+}
+
+.frase4 {
+	font-family: Berlin Sans FB;
+	font-size: 14px;
+
+}
+
+.cadastro {
+	height: 50px;
+	width: 200px;
+	background-color: #ffc000;
+	font-family: Berlin Sans FB;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 20px;
+	margin-left: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.cadastro:hover {
+	color: white;
+	background-color: #527aa2;
+}
+
+.conteudo {
+	background-color: #f0f0f0;
+}
+
+.galeria {
+	width: 1000px;
+	margin: auto;
+}
+
+.galeria img {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.produtos {
+	height: 90px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 90px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.foto1 img {
+	border-radius: 50px;
+}
+
+.rodape {
+	background-color: #fcff00;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #353535;
+	font-size: 30px;
+	font-family: Berlin Sans FB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

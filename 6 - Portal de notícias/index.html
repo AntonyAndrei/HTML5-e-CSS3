@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Notícias</title>
     <link rel="stylesheet" href="assets/css/template.css"/>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 <body>
     <div class="topo">
         <div class="topoDentro">
             <div class="topoLeft">
                 <ul>
-                    <li><a href="./">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="quem-somos">Quem somos</a></li>
                     <li><a href="anuncie-aqui">Anuncie Aqui</a></li>
                     <li><a href="contato">Contato</a></li>
@@ -32,49 +33,216 @@
     <div class="topo2">
         <div class="topo2Dentro">
             <div class="logo"><img src="assets/images/logo.png" width="230"></div>
-            <div class="banner"><h1>PUBLICIDADE 680x80px</h1></div>
+            <div class="banner"><img src="assets/images/publicidade.png" width="650px" height="80px"></div>
         </div>
     </div>
     <div class="menu">
         <div class="menuDentro">
-            <li>
-                <li><a href="./">Home</a></li>
-                <li><a href="./">Economia</a></li>
+            <img 
+            src="assets/images/menu-button.png" 
+            width="30px" 
+            height="30px" 
+            class="menumobile"
+            onclick="toggleMenu()">
+            <ul id="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Economia</a></li>
                 <li>
-                    <a href="./">Entreteinimento</a>
+                    <a href="">Entreteinimento</a>
                     <img src="assets/images/arrowdown.png" style="margin-right: 5px;" width="10px">
                     <div class="submenu">
-                        <a href="./"><div class="submenuitem">Sub item 1</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 2</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 3</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 4</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 5</div></a>
+                        <a href=""><div class="submenuitem">Sub item 1</div></a>
+                        <a href=""><div class="submenuitem">Sub item 2</div></a>
+                        <a href=""><div class="submenuitem">Sub item 3</div></a>
+                        <a href=""><div class="submenuitem">Sub item 4</div></a>
+                        <a href=""><div class="submenuitem">Sub item 5</div></a>
                     </div>
                 </li>
                 <li>
-                    <a href="./">Esportes</a>
+                    <a href="">Esportes</a>
                     <img src="assets/images/arrowdown.png" style="margin-right: 5px;" width="10px">
                     <div class="submenu">
-                        <a href="./"><div class="submenuitem">Sub item 1</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 2</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 3</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 4</div></a>
+                        <a href=""><div class="submenuitem">Sub item 1</div></a>
+                        <a href=""><div class="submenuitem">Sub item 2</div></a>
+                        <a href=""><div class="submenuitem">Sub item 3</div></a>
+                        <a href=""><div class="submenuitem">Sub item 4</div></a>
                     </div>
                 </li>
-                <li><a href="./">Geral</a></li>
+                <li><a href="">Geral</a></li>
                 <li>
-                    <a href="./">Noticias</a>
+                    <a href="">Noticias</a>
                     <img src="assets/images/arrowdown.png" style="margin-right: 5px;" width="10px">
                     <div class="submenu">
-                        <a href="./"><div class="submenuitem">Sub item 1</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 2</div></a>
-                        <a href="./"><div class="submenuitem">Sub item 3</div></a>
+                        <a href=""><div class="submenuitem">Sub item 1</div></a>
+                        <a href=""><div class="submenuitem">Sub item 2</div></a>
+                        <a href=""><div class="submenuitem">Sub item 3</div></a>
                     </div>
                 </li>
-                <li><a href="./">Videos</a></li>
-            </li>
+                <li><a href="">Videos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="ultimasnoticias">
+        <div class="ultimasnoticiasdentro">
+            <div class="ultimasnoticiasarea">
+                <div class="ultimasnoticiastitulo">ÚLTIMAS NOTÍCIAS</div>
+                <div class="ultimasnoticiasdescricao">Alguma noticia de algum texto que ira ficar
+                     por aqui mesmo,  usuario leitor do site identifique de forma facil.</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="containerdentro">
+            <div class="leftside">
+                <div class="slide">
+                    <img src="https://www.bastidoresdatv.com.br/wp-content/uploads/2021/09/investimento-em-publicidade-digital-no-Brasil.jpg"
+                     width="753" height="200">
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">NOTICIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="noticiarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/noticia1.png" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Jovem cria Layout Responsivo de Website utilizando
+                                     Apenas HTML5 e CSS3 </div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer 
+                                    Comentarios sobre a noticia qualquer Comentarios sobre a noticia qualquer
+                                    Comentarios sobre a noticia qualquer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="noticiarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/DJSdxcZTH5A5zCddDufXEZJqHhI=/13x120:719x518/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_9de6fd454d9849c8bee5b63069fbb074/internal_photos/bs/2021/g/g/sK9T7BT6O3p1uoe9t2pw/vacina-astrazeneca.jpg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/pxuHCl7exZl_i5KgOBY94kapPKk=/0x42:1080x650/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2022/V/M/hsbf8UTZiZwnfbcKAH5A/frame.jpg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/PgBuC2DRVL6vzqVUQNIovEnoXz4=/0x424:1125x1057/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2022/d/n/pEhOJ5RLOFXhi8Phizrg/whatsapp-image-2022-01-07-at-13.05.41.jpeg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/gAzqYK7JCCQovDN76oUB1XXMA50=/0x32:1596x930/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/y/6BLOgvR3qQoAxubPDiGA/000-9vq9h4.jpg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">NOTICIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="noticiarea1">
+                            <div class="noticiaitem noticiabig">
+                                <div class="noticiaimg">
+                                    <img src="assets/images/noticia1.png" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Jovem cria Layout Responsivo de Website utilizando
+                                     Apenas HTML5 e CSS3 </div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer 
+                                    Comentarios sobre a noticia qualquer Comentarios sobre a noticia qualquer
+                                    Comentarios sobre a noticia qualquer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="noticiarea2">
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/DJSdxcZTH5A5zCddDufXEZJqHhI=/13x120:719x518/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_9de6fd454d9849c8bee5b63069fbb074/internal_photos/bs/2021/g/g/sK9T7BT6O3p1uoe9t2pw/vacina-astrazeneca.jpg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/pxuHCl7exZl_i5KgOBY94kapPKk=/0x42:1080x650/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2022/V/M/hsbf8UTZiZwnfbcKAH5A/frame.jpg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/PgBuC2DRVL6vzqVUQNIovEnoXz4=/0x424:1125x1057/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2022/d/n/pEhOJ5RLOFXhi8Phizrg/whatsapp-image-2022-01-07-at-13.05.41.jpeg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                            <div class="noticiaitem">
+                                <div class="noticiaimg">
+                                    <img src="https://s2.glbimg.com/gAzqYK7JCCQovDN76oUB1XXMA50=/0x32:1596x930/fit-in/1080x608/middle/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/F/y/6BLOgvR3qQoAxubPDiGA/000-9vq9h4.jpg" width="80" height="80">
+                                </div>
+                                <div class="noticiatitulo">Algum Titulo Qualquer</div>
+                                <div class="noticiainfo">Comentarios sobre a noticia qualquer</div>
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="widget">
+                    <div class="widget_titulo">SOCIAL</div>
+                    <div class="widget_conteudo"> 
+                        <img src="assets/images/rss.png"  width="16" height="16"/>
+                        <img src="assets/images/facebook.png"  width="16" height="16"/>
+                        <img src="assets/images/google.png"  width="16" height="16"/>
+                        <img src="assets/images/twitter.png"  width="16" height="16"/>
+                        <img src="assets/images/youtube.png"  width="16" height="16"/>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ULTIMAS NOTICIAS</div>
+                    <div class="widget_conteudo">
+                        <div class="noticia_item">
+                            Alguma noticia de algum texto que ira ficar 
+                        por aqui mesmo, de modo que o usuario leitor do site identifique de forma facil.
+                        </div>
+                        <div class="noticia_item">
+                            Alguma noticia de algum texto que ira ficar 
+                        por aqui mesmo, de modo que o usuario leitor do site identifique de forma facil.
+                        </div>
+                        <div class="noticia_item">
+                            Alguma noticia de algum texto que ira ficar 
+                        por aqui mesmo, de modo que o usuario leitor do site identifique de forma facil.
+                        </div>
+                        <div class="noticia_item">
+                            Alguma noticia de algum texto que ira ficar 
+                        por aqui mesmo, de modo que o usuario leitor do site identifique de forma facil.
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">PUBLICIDADE</div>
+                    <div class="widget_conteudo">
+                        <img src="https://www.netface.com.br/arquivos5/central/2603-0432-1-29112018.jpg"  width="275" height="200"/>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_titulo">ENCONTREM-NOS NO FACEBOOK</div>
+                    <div class="widget_conteudo">Alguma noticia de algum texto que ira ficar por aqui mesmo, de modo que o usuario leitor do site identifique de forma facil.</div>
+                </div>
+            </div>
         </div>
     </div>
     
 </body>
 </html>
+
